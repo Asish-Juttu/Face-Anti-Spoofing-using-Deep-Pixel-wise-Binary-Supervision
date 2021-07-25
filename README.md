@@ -85,6 +85,9 @@ Use the train script to 'train' the model and 'test' script to test the model wi
 Use the 'Acc' script to test the trained model on testsets for accuracy.
 
 ### Results
+![image](https://user-images.githubusercontent.com/82205701/126898052-5e7b4407-6dea-42c6-bd98-e1d85a571e45.png)
+
+![image](https://user-images.githubusercontent.com/82205701/126898057-c234383a-10d9-43da-8bd0-a9b12d71606c.png)
 
 
 ## Reference
