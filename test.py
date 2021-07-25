@@ -6,7 +6,7 @@ from torchvision import transforms, datasets
 from models.loss import PixWiseBCELoss
 from models.densenet_161 import DeepPixBis
 #from models.detector import Detector
-from models.liveness_net import LivenessNet
+#from models.liveness_net import LivenessNet
 from datasets.PixWiseDataset import PixWiseDataset
 from utils.utils import read_cfg, get_optimizer, build_network, get_device
 from mtcnn import MTCNN
