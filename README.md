@@ -49,11 +49,11 @@ classification.
 This folder contains the trained face detector and face recognition model used in step 1.
 
 
-### Config
+### Configuration
 Contains the configuration file for the entire project.
 
 
-### Data
+### Test and Train Sets
 Contains the test and trains sets made using the NUAA Photo Imposter Database.
 
 
@@ -64,17 +64,17 @@ Contains the script to make the custom dataset object.
 Contains the scalars and graphs saved during training process by TensorBoard in the 'log' directory.
 Contains the trained Anti-Spoofing Model in the 'output' directory. 'densenet_161_rose.pth' was the model used.
 
-### Models
+### Neural Nets
 Contains the neural netowork model architecture script and the loss function script.
 
 ### NUAA Photo Imposter Database
 The database used for testing and training.
 
-### Trainer
+### Training Module
 Contains the trainer script used to train the model.
 Contains methods for training, saving, evaluating and loading a model.
 
-### Utils
+### Metrics
 Contains eval, meters and utils scripts.
 'Eval' script contains methods for score generation and accuracy calculation.
 'Meters' script contains methods to keep track of the metrics used by SummaryWriter module of TensorBoard for visualization.
