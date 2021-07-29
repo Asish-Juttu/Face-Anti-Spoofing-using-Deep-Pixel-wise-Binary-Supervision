@@ -39,9 +39,6 @@ enough light in the room).
 
 1. Run `python recognize.py`
 
-- The number under your name is the "Trust Distance", the less the distance (closer to 0), the more reliable is the
-classification.
-
 
 ## 2. Face Anti-Spoofing
 
@@ -75,10 +72,10 @@ Contains the trainer script used to train the model.
 Contains methods for training, saving, evaluating and loading a model.
 
 ### Metrics
-Contains eval, meters and utils scripts.
-'Eval' script contains methods for score generation and accuracy calculation.
-'Meters' script contains methods to keep track of the metrics used by SummaryWriter module of TensorBoard for visualization.
-'Utils' has general methods like 'get_device', 'get_optimizer', etc.
+Contains score, metrics and utils scripts.
+'score' script contains methods for score generation and accuracy calculation.
+'metrics' script contains methods to keep track of the metrics used by SummaryWriter module of TensorBoard for visualization.
+'utils' has general methods like 'get_device', 'get_optimizer', etc.
 
 ### Training and Testing
 Use the train script to 'train' the model and 'test' script to test the model with your webcam.
